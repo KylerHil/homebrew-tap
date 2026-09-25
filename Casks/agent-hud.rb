@@ -1,8 +1,8 @@
 # Homebrew cask for Agent HUD. scripts/release.sh fills in the version and checksum and publishes this
 # to github.com/KylerHil/homebrew-tap as Casks/agent-hud.rb. Edit it here, not in the tap.
 cask "agent-hud" do
-  version "1.3.4"
-  sha256 "90c5d7b737423e5093912fc028ae3963ec8b48394b48d422b7462ac5e43c6d0e"
+  version "1.3.5"
+  sha256 "09a9e1130c877abe9cf42129b76968ce75eeb5903de01d2e74659b5a0394f981"
 
   url "https://github.com/KylerHil/agent-hud/releases/download/v#{version}/AgentHUD-#{version}.zip"
   name "Agent HUD"
